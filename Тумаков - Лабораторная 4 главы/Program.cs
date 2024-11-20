@@ -85,7 +85,7 @@ public class MainClass
                         Console.WriteLine("Ошибка: число должно быть в диапазоне от 1 до 366");
                         return;
                     }
-                    else if ((!isLeapYear) && day1 < 1 || day1 > 365)
+                    else if ((!isLeapYear) && (day1 < 1 || day1 > 365))
                     {
                         Console.WriteLine("Ошибка: число должно быть в диапазоне от 1 до 365");
                         return;
